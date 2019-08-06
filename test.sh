@@ -13,3 +13,9 @@ do
     esac
 x=$(( $x + 1 ))
 done
+tac undo.sh > undo2.sh
+sh ./undo2.sh
+cmp ../State State
+cat undo2.sh
+rm undo.sh undo2.sh
+cp ../State State
