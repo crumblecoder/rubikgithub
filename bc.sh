@@ -7,5 +7,7 @@ ${cube:27:6}${cube:45:1}${cube:48:1}${cube:51:1}\
 ${cube:36:2}${cube:35:1}${cube:39:2}${cube:34:1}${cube:42:2}${cube:33:1}\
 ${cube:11:1}${cube:46:2}${cube:10:1}${cube:49:2}${cube:9:1}${cube:52:2}>./State
 
-
+echo sh ./bc.sh >>undo.sh
+echo sh ./bc.sh >>undo.sh
+echo sh ./bc.sh >>undo.sh
 #echo $(( $RANDOM % 10 ))

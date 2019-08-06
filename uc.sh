@@ -7,5 +7,10 @@ ${cube:27:9}\
 ${cube:26:1}${cube:25:1}${cube:24:1}${cube:39:6}\
 ${cube:0:3}${cube:48:6}>./State
 
+echo sh ./uc.sh >>undo.sh
+echo sh ./uc.sh >>undo.sh
+echo sh ./uc.sh >>undo.sh
+
+
 
 #cmp -l  State ../State |wc -l
